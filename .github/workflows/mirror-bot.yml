@@ -31,7 +31,7 @@ jobs:
 
       - name: Clone The Secret Mirror Repository
         run: |
-          git clone https://${{ secrets.GH_TOKEN }}@github.com/superioros-bot/${{ secrets.MIRROR_REPOSLUG }} source
+          git clone https://${{ secrets.GH_TOKEN }}@github.com/voltmirror02/${{ secrets.MIRROR_REPOSLUG }} source
 
       - name: Compile The Mirroring Docker Container
         run: |
